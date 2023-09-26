@@ -1842,17 +1842,17 @@ h1, h2, h3, h4, h5,
 
 .navbar-brand {
   font-weight: 900;
-  font-size: 26px;
+  font-size: 50px;
   position: relative;
   z-index: 0; }
   .navbar-brand:after {
     position: absolute;
     top: 50%;
-    left: -12px;
-    width: 40px;
-    height: 40px;
+    left: -14px;
+    width: 60px;
+    height: 60px;
     content: '';
-    background: #3e64ff;
+    background: #00cc66;
     z-index: -1;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1860,7 +1860,9 @@ h1, h2, h3, h4, h5,
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    border-radius: 50%; }
+    border-radius: 50%;
+    }
+    
   .navbar-brand span {
     color: #fff; }
 
@@ -1878,7 +1880,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .1;
-    width: 50%;
+    width: 100%;
     background: #22292A; }
   .hero-wrap .text {
     width: 100%; }
